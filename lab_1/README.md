@@ -9,6 +9,10 @@
 6. Помилок в ході злиття двох гілок не виникало.
 7. Зміни для прикладу.
 8. `git pull`.
+9. Image:
+![Image][logo]
+[logo]: https://github.com/ProgerSDK/ik-31-taras/blob/master/lab_1/logo.png
+
 
 
 
