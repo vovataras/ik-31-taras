@@ -6,9 +6,9 @@ install:
 	@echo "Installing pipenv and dependencies."
 	# Ваш код тут
 	pip install pipenv
-    pipenv --python 3.7
-    pipenv install requests
-    pipenv install ntplib
+	pipenv --python 3.7
+	pipenv install requests
+	pipenv install ntplib
 
 test:
 	@echo "Start tests."
