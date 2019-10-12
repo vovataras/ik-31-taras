@@ -1,25 +1,37 @@
 # Lab_3: Вступ до моніторингу.
 
 1. Ініціалізовую середовище pipenv та встановлюю необхідні пакети:
-    ```
-    pipenv --python 3.7
-    pipenv install django
-    ```
-2. За допомогою Django Framework створюю заготовку проекту. Для зручності винношу всі створені файли на один рівень вище:
-    ```
-    pipenv run django-admin startproject web_site
+
+        pipenv --python 3.7
+        pipenv install django
    
-    mv web_site/web_site/* web_site/
-    mv web_site/manage.py ./
-    ```
+2. За допомогою Django Framework створюю заготовку проекту. Для зручності винношу всі створені файли на один рівень вище:
+
+        pipenv run django-admin startproject web_site
+       
+        mv web_site/web_site/* web_site/
+        mv web_site/manage.py ./
+        
 3. Переконуюсь що все встановилось правильно і можна запустити Django сервер. Виконую команду вказану нижче та переходжу за посиланням яке вивелось у консолі:
-    ```
-    pipenv run python manage.py runserver
-    ```
+    
+        pipenv run python manage.py runserver
+    
     ![django server](images/lab_3_1.png)
 4. Зупиняю сервер виконавши переривання Ctrl+C. Створюю коміт із базовим темплейтом сайту.
 5. Далі створюю темплейт додатку (app) у якому буде описано всі web сторінки сайту. Створюю коміт із новоствореними файлами темплейту додатка:
-   ```
-   pipenv run python manage.py startapp main
-   ```
-   
+
+        pipenv run python manage.py startapp main
+        
+6. Використовуючи можливості IntelliJ створюю папку `main/templates/`, а також у даній папці файл `main.html`. Також у папці додатку створюю ще один файл `main/urls.py`. Роблю коміт із даними файлами.
+7. Вказую Django frameworks назву створеного додатку та де шукати веб сторінки. Це здійснюється у файлі `web_site/settings.pyу` у змінній `INSTALLED_APPS`, а також вношу зміни у файл `web_site/url.py`.
+8. Змінюю вміст файла `main/views.py`.
+9. Щоб поєднати функції із реальними URL шляхами за якими будуть доступні веб сторінки заповнюю файл `main/urls.py` згідно зразка.
+10. Запускаю сервер та переконуюсь що сторінки доступні:
+    
+    ![web_site/](images/lab_3_2.png)
+    
+    ![web_site/health/](images/lab_3_3.png)
+    
+    Виконую коміт робочого Django сайту.
+        
+    
