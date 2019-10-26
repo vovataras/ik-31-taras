@@ -12,11 +12,11 @@ RUN apt-get install git -y && pip install pipenv
 # Створюємо робочу папку
 WORKDIR /lab
 
-# Завантажуємо файли з Gitd
+# Завантажуємо файли з Git
 RUN git clone https://github.com/ProgerSDK/ik-31-taras
 
 # Створюємо остаточну робочу папку з Веб-сайтом та копіюємо туди файли
-WORKDIR /app
+WORKDIR /app/monitoring
 RUN cp -r /lab/ik-31-taras/lab_3/* .
 
 # Інсталюємо всі залежності
@@ -26,4 +26,4 @@ RUN pipenv install
 EXPOSE 8000
 
 # Це команда яка виконається при створенні контейнера
-ENTRYPOINT ["pipenv", "run", "python", "manage.py", "runserver", "0.0.0.0:8000"]
+ENTRYPOINT ["pipenv", "run", "python", "monitoring.py", "0.0.0.0:8000"]

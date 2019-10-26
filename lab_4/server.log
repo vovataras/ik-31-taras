@@ -1,0 +1,110 @@
+ERROR 2019-10-19 15:42:10,949 root : Http Error: 404 Client Error: Not Found for url: http://localhost:8000/healthkjaxldf
+INFO 2019-10-19 15:42:26,589 root : Сервер доступний. Час на сервері: 2019-10-19T15:42:26.588
+INFO 2019-10-19 15:42:26,589 root : Запитувана сторінка: : /health/
+INFO 2019-10-19 15:42:26,590 root : Відповідь сервера містить наступні поля:
+INFO 2019-10-19 15:42:26,590 root : Ключ: date, Значення: 2019-10-19T15:42:26.588
+INFO 2019-10-19 15:42:26,590 root : Ключ: current_page, Значення: /health/
+INFO 2019-10-19 15:42:26,590 root : Ключ: server_info, Значення: {'system': 'Windows', 'node': 'DESKTOP-EK2TUMK', 'release': '10', 'version': '10.0.18362', 'machine': 'AMD64', 'processor': 'Intel64 Family 6 Model 142 Stepping 9, GenuineIntel'}
+INFO 2019-10-19 15:42:26,590 root : Ключ: client_info, Значення: python-requests/2.22.0
+ERROR 2019-10-19 15:43:30,653 root : Error Connecting: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F10AC1E588>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+INFO 2019-10-19 15:44:30,744 root : Сервер доступний. Час на сервері: 2019-10-19T15:44:30.742
+INFO 2019-10-19 15:44:30,744 root : Запитувана сторінка: : /health/
+INFO 2019-10-19 15:44:30,744 root : Відповідь сервера містить наступні поля:
+INFO 2019-10-19 15:44:30,744 root : Ключ: date, Значення: 2019-10-19T15:44:30.742
+INFO 2019-10-19 15:44:30,744 root : Ключ: current_page, Значення: /health/
+INFO 2019-10-19 15:44:30,744 root : Ключ: server_info, Значення: {'system': 'Windows', 'node': 'DESKTOP-EK2TUMK', 'release': '10', 'version': '10.0.18362', 'machine': 'AMD64', 'processor': 'Intel64 Family 6 Model 142 Stepping 9, GenuineIntel'}
+INFO 2019-10-19 15:44:30,745 root : Ключ: client_info, Значення: python-requests/2.22.0
+INFO 2019-10-19 15:45:30,758 root : Сервер доступний. Час на сервері: 2019-10-19T15:45:30.756
+INFO 2019-10-19 15:45:30,759 root : Запитувана сторінка: : /health/
+INFO 2019-10-19 15:45:30,759 root : Відповідь сервера містить наступні поля:
+INFO 2019-10-19 15:45:30,759 root : Ключ: date, Значення: 2019-10-19T15:45:30.756
+INFO 2019-10-19 15:45:30,759 root : Ключ: current_page, Значення: /health/
+INFO 2019-10-19 15:45:30,759 root : Ключ: server_info, Значення: {'system': 'Windows', 'node': 'DESKTOP-EK2TUMK', 'release': '10', 'version': '10.0.18362', 'machine': 'AMD64', 'processor': 'Intel64 Family 6 Model 142 Stepping 9, GenuineIntel'}
+INFO 2019-10-19 15:45:30,759 root : Ключ: client_info, Значення: python-requests/2.22.0
+ERROR 2019-10-19 15:46:34,767 root : Error Connecting: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F10AC2D188>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+ERROR 2019-10-19 15:47:38,772 root : Error Connecting: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F10AC39848>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+ERROR 2019-10-19 15:48:42,782 root : Error Connecting: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F10AC41A88>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+INFO 2019-10-19 15:49:42,803 root : Сервер доступний. Час на сервері: 2019-10-19T15:49:42.801
+INFO 2019-10-19 15:49:42,803 root : Запитувана сторінка: : /health/
+INFO 2019-10-19 15:49:42,803 root : Відповідь сервера містить наступні поля:
+INFO 2019-10-19 15:49:42,803 root : Ключ: date, Значення: 2019-10-19T15:49:42.801
+INFO 2019-10-19 15:49:42,803 root : Ключ: current_page, Значення: /health/
+INFO 2019-10-19 15:49:42,803 root : Ключ: server_info, Значення: {'system': 'Windows', 'node': 'DESKTOP-EK2TUMK', 'release': '10', 'version': '10.0.18362', 'machine': 'AMD64', 'processor': 'Intel64 Family 6 Model 142 Stepping 9, GenuineIntel'}
+INFO 2019-10-19 15:49:42,803 root : Ключ: client_info, Значення: python-requests/2.22.0
+INFO 2019-10-19 15:50:42,822 root : Сервер доступний. Час на сервері: 2019-10-19T15:50:42.821
+INFO 2019-10-19 15:50:42,823 root : Запитувана сторінка: : /health/
+INFO 2019-10-19 15:50:42,823 root : Відповідь сервера містить наступні поля:
+INFO 2019-10-19 15:50:42,823 root : Ключ: date, Значення: 2019-10-19T15:50:42.821
+INFO 2019-10-19 15:50:42,823 root : Ключ: current_page, Значення: /health/
+INFO 2019-10-19 15:50:42,823 root : Ключ: server_info, Значення: {'system': 'Windows', 'node': 'DESKTOP-EK2TUMK', 'release': '10', 'version': '10.0.18362', 'machine': 'AMD64', 'processor': 'Intel64 Family 6 Model 142 Stepping 9, GenuineIntel'}
+INFO 2019-10-19 15:50:42,823 root : Ключ: client_info, Значення: python-requests/2.22.0
+INFO 2019-10-19 15:51:42,848 root : Сервер доступний. Час на сервері: 2019-10-19T15:51:42.845
+INFO 2019-10-19 15:51:42,848 root : Запитувана сторінка: : /health/
+INFO 2019-10-19 15:51:42,848 root : Відповідь сервера містить наступні поля:
+INFO 2019-10-19 15:51:42,848 root : Ключ: date, Значення: 2019-10-19T15:51:42.845
+INFO 2019-10-19 15:51:42,848 root : Ключ: current_page, Значення: /health/
+INFO 2019-10-19 15:51:42,849 root : Ключ: server_info, Значення: {'system': 'Windows', 'node': 'DESKTOP-EK2TUMK', 'release': '10', 'version': '10.0.18362', 'machine': 'AMD64', 'processor': 'Intel64 Family 6 Model 142 Stepping 9, GenuineIntel'}
+INFO 2019-10-19 15:51:42,849 root : Ключ: client_info, Значення: python-requests/2.22.0
+INFO 2019-10-19 15:52:42,864 root : Сервер доступний. Час на сервері: 2019-10-19T15:52:42.862
+INFO 2019-10-19 15:52:42,864 root : Запитувана сторінка: : /health/
+INFO 2019-10-19 15:52:42,864 root : Відповідь сервера містить наступні поля:
+INFO 2019-10-19 15:52:42,865 root : Ключ: date, Значення: 2019-10-19T15:52:42.862
+INFO 2019-10-19 15:52:42,865 root : Ключ: current_page, Значення: /health/
+INFO 2019-10-19 15:52:42,865 root : Ключ: server_info, Значення: {'system': 'Windows', 'node': 'DESKTOP-EK2TUMK', 'release': '10', 'version': '10.0.18362', 'machine': 'AMD64', 'processor': 'Intel64 Family 6 Model 142 Stepping 9, GenuineIntel'}
+INFO 2019-10-19 15:52:42,865 root : Ключ: client_info, Значення: python-requests/2.22.0
+INFO 2019-10-19 15:53:42,879 root : Сервер доступний. Час на сервері: 2019-10-19T15:53:42.878
+INFO 2019-10-19 15:53:42,879 root : Запитувана сторінка: : /health/
+INFO 2019-10-19 15:53:42,880 root : Відповідь сервера містить наступні поля:
+INFO 2019-10-19 15:53:42,880 root : Ключ: date, Значення: 2019-10-19T15:53:42.878
+INFO 2019-10-19 15:53:42,880 root : Ключ: current_page, Значення: /health/
+INFO 2019-10-19 15:53:42,880 root : Ключ: server_info, Значення: {'system': 'Windows', 'node': 'DESKTOP-EK2TUMK', 'release': '10', 'version': '10.0.18362', 'machine': 'AMD64', 'processor': 'Intel64 Family 6 Model 142 Stepping 9, GenuineIntel'}
+INFO 2019-10-19 15:53:42,880 root : Ключ: client_info, Значення: python-requests/2.22.0
+INFO 2019-10-26 14:31:22,818 root : Сервер доступний. Час на сервері: 2019-10-26T14:31:22.816
+INFO 2019-10-26 14:31:22,819 root : Запитувана сторінка: : /health/
+INFO 2019-10-26 14:31:22,819 root : Відповідь сервера містить наступні поля:
+INFO 2019-10-26 14:31:22,819 root : Ключ: date, Значення: 2019-10-26T14:31:22.816
+INFO 2019-10-26 14:31:22,819 root : Ключ: current_page, Значення: /health/
+INFO 2019-10-26 14:31:22,819 root : Ключ: server_info, Значення: {'system': 'Linux', 'node': 'be383fa9184c', 'release': '5.3.0-19-generic', 'version': '#20-Ubuntu SMP Fri Oct 18 09:04:39 UTC 2019', 'machine': 'x86_64', 'processor': ''}
+INFO 2019-10-26 14:31:22,819 root : Ключ: client_info, Значення: python-requests/2.22.0
+INFO 2019-10-26 14:32:22,900 root : Сервер доступний. Час на сервері: 2019-10-26T14:32:22.896
+INFO 2019-10-26 14:32:22,900 root : Запитувана сторінка: : /health/
+INFO 2019-10-26 14:32:22,901 root : Відповідь сервера містить наступні поля:
+INFO 2019-10-26 14:32:22,901 root : Ключ: date, Значення: 2019-10-26T14:32:22.896
+INFO 2019-10-26 14:32:22,901 root : Ключ: current_page, Значення: /health/
+INFO 2019-10-26 14:32:22,901 root : Ключ: server_info, Значення: {'system': 'Linux', 'node': 'be383fa9184c', 'release': '5.3.0-19-generic', 'version': '#20-Ubuntu SMP Fri Oct 18 09:04:39 UTC 2019', 'machine': 'x86_64', 'processor': ''}
+INFO 2019-10-26 14:32:22,902 root : Ключ: client_info, Значення: python-requests/2.22.0
+INFO 2019-10-26 14:33:22,987 root : Сервер доступний. Час на сервері: 2019-10-26T14:33:22.982
+INFO 2019-10-26 14:33:22,987 root : Запитувана сторінка: : /health/
+INFO 2019-10-26 14:33:22,987 root : Відповідь сервера містить наступні поля:
+INFO 2019-10-26 14:33:22,988 root : Ключ: date, Значення: 2019-10-26T14:33:22.982
+INFO 2019-10-26 14:33:22,988 root : Ключ: current_page, Значення: /health/
+INFO 2019-10-26 14:33:22,988 root : Ключ: server_info, Значення: {'system': 'Linux', 'node': 'be383fa9184c', 'release': '5.3.0-19-generic', 'version': '#20-Ubuntu SMP Fri Oct 18 09:04:39 UTC 2019', 'machine': 'x86_64', 'processor': ''}
+INFO 2019-10-26 14:33:22,988 root : Ключ: client_info, Значення: python-requests/2.22.0
+INFO 2019-10-26 14:34:23,070 root : Сервер доступний. Час на сервері: 2019-10-26T14:34:23.065
+INFO 2019-10-26 14:34:23,070 root : Запитувана сторінка: : /health/
+INFO 2019-10-26 14:34:23,070 root : Відповідь сервера містить наступні поля:
+INFO 2019-10-26 14:34:23,070 root : Ключ: date, Значення: 2019-10-26T14:34:23.065
+INFO 2019-10-26 14:34:23,071 root : Ключ: current_page, Значення: /health/
+INFO 2019-10-26 14:34:23,071 root : Ключ: server_info, Значення: {'system': 'Linux', 'node': 'be383fa9184c', 'release': '5.3.0-19-generic', 'version': '#20-Ubuntu SMP Fri Oct 18 09:04:39 UTC 2019', 'machine': 'x86_64', 'processor': ''}
+INFO 2019-10-26 14:34:23,071 root : Ключ: client_info, Значення: python-requests/2.22.0
+INFO 2019-10-26 14:35:23,153 root : Сервер доступний. Час на сервері: 2019-10-26T14:35:23.149
+INFO 2019-10-26 14:35:23,153 root : Запитувана сторінка: : /health/
+INFO 2019-10-26 14:35:23,154 root : Відповідь сервера містить наступні поля:
+INFO 2019-10-26 14:35:23,154 root : Ключ: date, Значення: 2019-10-26T14:35:23.149
+INFO 2019-10-26 14:35:23,154 root : Ключ: current_page, Значення: /health/
+INFO 2019-10-26 14:35:23,154 root : Ключ: server_info, Значення: {'system': 'Linux', 'node': 'be383fa9184c', 'release': '5.3.0-19-generic', 'version': '#20-Ubuntu SMP Fri Oct 18 09:04:39 UTC 2019', 'machine': 'x86_64', 'processor': ''}
+INFO 2019-10-26 14:35:23,155 root : Ключ: client_info, Значення: python-requests/2.22.0
+INFO 2019-10-26 14:36:23,232 root : Сервер доступний. Час на сервері: 2019-10-26T14:36:23.230
+INFO 2019-10-26 14:36:23,232 root : Запитувана сторінка: : /health/
+INFO 2019-10-26 14:36:23,232 root : Відповідь сервера містить наступні поля:
+INFO 2019-10-26 14:36:23,233 root : Ключ: date, Значення: 2019-10-26T14:36:23.230
+INFO 2019-10-26 14:36:23,233 root : Ключ: current_page, Значення: /health/
+INFO 2019-10-26 14:36:23,233 root : Ключ: server_info, Значення: {'system': 'Linux', 'node': 'be383fa9184c', 'release': '5.3.0-19-generic', 'version': '#20-Ubuntu SMP Fri Oct 18 09:04:39 UTC 2019', 'machine': 'x86_64', 'processor': ''}
+INFO 2019-10-26 14:36:23,233 root : Ключ: client_info, Значення: python-requests/2.22.0
+INFO 2019-10-26 14:37:23,314 root : Сервер доступний. Час на сервері: 2019-10-26T14:37:23.310
+INFO 2019-10-26 14:37:23,315 root : Запитувана сторінка: : /health/
+INFO 2019-10-26 14:37:23,315 root : Відповідь сервера містить наступні поля:
+INFO 2019-10-26 14:37:23,315 root : Ключ: date, Значення: 2019-10-26T14:37:23.310
+INFO 2019-10-26 14:37:23,316 root : Ключ: current_page, Значення: /health/
+INFO 2019-10-26 14:37:23,316 root : Ключ: server_info, Значення: {'system': 'Linux', 'node': 'be383fa9184c', 'release': '5.3.0-19-generic', 'version': '#20-Ubuntu SMP Fri Oct 18 09:04:39 UTC 2019', 'machine': 'x86_64', 'processor': ''}
+INFO 2019-10-26 14:37:23,316 root : Ключ: client_info, Значення: python-requests/2.22.0
