@@ -1,0 +1,28 @@
+INFO 2019-11-11 17:19:25,012 root : Сервер доступний. Час на сервері: 2019-11-11T17:19:25.005
+INFO 2019-11-11 17:19:25,012 root : Запитувана сторінка: : /health/
+INFO 2019-11-11 17:19:25,013 root : Відповідь сервера містить наступні поля:
+INFO 2019-11-11 17:19:25,013 root : Ключ: date, Значення: 2019-11-11T17:19:25.005
+INFO 2019-11-11 17:19:25,013 root : Ключ: current_page, Значення: /health/
+INFO 2019-11-11 17:19:25,013 root : Ключ: server_info, Значення: {'system': 'Linux', 'node': '3b70e803b7fe', 'release': '5.3.0-19-generic', 'version': '#20-Ubuntu SMP Fri Oct 18 09:04:39 UTC 2019', 'machine': 'x86_64', 'processor': ''}
+INFO 2019-11-11 17:19:25,013 root : Ключ: client_info, Значення: python-requests/2.22.0
+INFO 2019-11-11 17:20:25,082 root : Сервер доступний. Час на сервері: 2019-11-11T17:20:25.080
+INFO 2019-11-11 17:20:25,082 root : Запитувана сторінка: : /health/
+INFO 2019-11-11 17:20:25,082 root : Відповідь сервера містить наступні поля:
+INFO 2019-11-11 17:20:25,082 root : Ключ: date, Значення: 2019-11-11T17:20:25.080
+INFO 2019-11-11 17:20:25,082 root : Ключ: current_page, Значення: /health/
+INFO 2019-11-11 17:20:25,082 root : Ключ: server_info, Значення: {'system': 'Linux', 'node': '3b70e803b7fe', 'release': '5.3.0-19-generic', 'version': '#20-Ubuntu SMP Fri Oct 18 09:04:39 UTC 2019', 'machine': 'x86_64', 'processor': ''}
+INFO 2019-11-11 17:20:25,083 root : Ключ: client_info, Значення: python-requests/2.22.0
+INFO 2019-11-11 17:21:25,149 root : Сервер доступний. Час на сервері: 2019-11-11T17:21:25.147
+INFO 2019-11-11 17:21:25,149 root : Запитувана сторінка: : /health/
+INFO 2019-11-11 17:21:25,149 root : Відповідь сервера містить наступні поля:
+INFO 2019-11-11 17:21:25,149 root : Ключ: date, Значення: 2019-11-11T17:21:25.147
+INFO 2019-11-11 17:21:25,149 root : Ключ: current_page, Значення: /health/
+INFO 2019-11-11 17:21:25,149 root : Ключ: server_info, Значення: {'system': 'Linux', 'node': '3b70e803b7fe', 'release': '5.3.0-19-generic', 'version': '#20-Ubuntu SMP Fri Oct 18 09:04:39 UTC 2019', 'machine': 'x86_64', 'processor': ''}
+INFO 2019-11-11 17:21:25,149 root : Ключ: client_info, Значення: python-requests/2.22.0
+INFO 2019-11-11 17:22:25,218 root : Сервер доступний. Час на сервері: 2019-11-11T17:22:25.216
+INFO 2019-11-11 17:22:25,218 root : Запитувана сторінка: : /health/
+INFO 2019-11-11 17:22:25,218 root : Відповідь сервера містить наступні поля:
+INFO 2019-11-11 17:22:25,218 root : Ключ: date, Значення: 2019-11-11T17:22:25.216
+INFO 2019-11-11 17:22:25,218 root : Ключ: current_page, Значення: /health/
+INFO 2019-11-11 17:22:25,218 root : Ключ: server_info, Значення: {'system': 'Linux', 'node': '3b70e803b7fe', 'release': '5.3.0-19-generic', 'version': '#20-Ubuntu SMP Fri Oct 18 09:04:39 UTC 2019', 'machine': 'x86_64', 'processor': ''}
+INFO 2019-11-11 17:22:25,218 root : Ключ: client_info, Значення: python-requests/2.22.0

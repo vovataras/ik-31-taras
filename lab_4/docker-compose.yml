@@ -1,0 +1,32 @@
+version: '3.7'
+services:
+  django:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: vovataras/lab4-examples:compose-django
+    container_name: django
+    networks:
+      - public
+    ports:
+      - 8000:8000
+
+  monitoring:
+    build:
+      context: .
+      dockerfile: Dockerfile.site
+    image: vovataras/lab4-examples:compose-monitoring
+    container_name: monitoring
+    depends_on:
+      - django
+    network_mode: host
+    volumes:
+      - server-logs:/app/monitoring/logs
+
+volumes:
+  server-logs:
+    driver: local
+
+networks:
+  public:
+    driver: bridge

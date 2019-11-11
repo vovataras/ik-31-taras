@@ -23,7 +23,7 @@ RUN cp -r /lab/ik-31-taras/lab_3/* .
 RUN pipenv install
 
 # Створюємо папку для логів
-RUN mkdir /logs
+RUN mkdir logs
 
 # Відкриваємо порт 8000 на зовні
 EXPOSE 8000
