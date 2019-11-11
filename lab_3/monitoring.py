@@ -4,7 +4,7 @@ import logging
 from time import sleep
 
 logging.basicConfig(
-    filename="server.log",
+    filename="logs/server.log",
     filemode='a',
     level=logging.INFO,
     format='{levelname} {asctime} {name} : {message}',
