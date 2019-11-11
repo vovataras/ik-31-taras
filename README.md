@@ -8,3 +8,5 @@
 ## [Lab_3: Вступ до моніторингу.](lab_3)
 
 ## [Lab_4: Робота з Docker.](lab_4)
+
+## [Lab_5: Автоматизація за допомогою Makefile VS Docker Compose](lab_5)
