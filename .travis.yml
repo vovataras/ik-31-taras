@@ -36,8 +36,6 @@ jobs:
       name: "Build and run Docker images via make"
       services:
         - docker
-      before_install:
-        - chmod +x ./lab_*/scripts/travis-build.sh
       install:
         - cd ./lab_5/
         - make app
