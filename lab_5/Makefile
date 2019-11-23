@@ -36,15 +36,15 @@ run-back:
 	@docker network create --driver=bridge appnet \
 	&& docker run --rm --name redis --net=appnet -d redis \
 	&& docker run --rm -it --name app --net=appnet -p 5000:5000 $(REPO):app &
-	PID_run := $!
+	PID_run=$!
 
 test-app-back:
 	@docker run --rm -it --name test --net=appnet $(REPO):tests &
-	PID_test := $!
+	PID_test=$!
 
 kill:
-	kill $(PID_test)
-	kill $(PID_run)
+	kill $PID_test
+	kill $PID_run
 
 push-travis:
 	@docker push $(REPO):app-travis
