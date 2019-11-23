@@ -42,9 +42,7 @@ jobs:
         - cd ./lab_5/
         - make app
         - make tests
-      script:
-        - make run
-        - ./scripts/travis-build.sh
+      script: ./scripts/travis-build.sh
 branches:
   only:
     - master
