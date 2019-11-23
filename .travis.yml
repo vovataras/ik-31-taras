@@ -12,7 +12,6 @@ jobs:
         - chmod +x ./lab_*/scripts/travis-build.sh
       install:
         - cd ./lab_2/
-        - pipenv install
         - make install
       script: ./scripts/travis-build.sh
     - stage: "Build Lab 3."

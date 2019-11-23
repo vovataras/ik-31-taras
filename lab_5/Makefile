@@ -39,8 +39,3 @@ run-back:
 
 test-app-back:
 	@docker run --rm -it --name test --net=appnet $(REPO):tests &
-
-
-push-travis:
-	@docker push $(REPO):app-travis
-	@docker push $(REPO):tests-travis
