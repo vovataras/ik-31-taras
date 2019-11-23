@@ -37,13 +37,15 @@ jobs:
       name: "Build and run Docker images via make"
       services:
         - docker
-      before_install:
-        - chmod +x ./lab_*/scripts/travis-build.sh
       install:
         - cd ./lab_5/
         - make app
         - make tests
-      script: ./scripts/travis-build.sh
+      script:
+        - make run
+        - make test-app
+        - make push
+        - if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin; fi
 branches:
   only:
     - master
